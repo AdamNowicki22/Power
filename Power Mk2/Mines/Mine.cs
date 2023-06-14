@@ -8,11 +8,11 @@ namespace Power_Mk2
 {
     public abstract class Mine
     {
-        public int efficiencyDaily; 
+        public int EfficiencyDaily;
 
         public int GetResourcePerGivenDaysDefault30(int mineQty, int days = 30)
         {
-            return mineQty * efficiencyDaily * days;
+            return mineQty * EfficiencyDaily * days;
         }
 
     }
