@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Power
 {
-    public class CoalMining: Mine
+    public class UraniumMining: Mine
     {
-
-        int efficiencyDaily = 40;
-
+        public UraniumMining()
+        {
+            EfficiencyDaily = 100;
+        }
     }
 }
